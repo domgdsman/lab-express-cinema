@@ -4,5 +4,40 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+#movie-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#movie-container {
+  width: 12vw;
+  height: 22vw;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.movie-display img {
+  float: left;
+  margin-right: 30px;
+}
+
+.text-content {
+  list-style-position: inside;
+  width: 40vw;
+}
+
+.showtimes {
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+  li {
+    list-style-type: none;
+    padding: 0 5px;
+    border-right: black solid 1px;
+  }
 }
